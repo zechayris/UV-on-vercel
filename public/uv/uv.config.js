@@ -1,7 +1,7 @@
 /*global Ultraviolet*/
 self.__uv$config = {
     prefix: "/uv/service/",
-    bare: "/b/",
+    bare: "https://le0.org",
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: "/uv/uv.handler.js",
